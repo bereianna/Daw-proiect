@@ -1,0 +1,151 @@
+@font-face{
+    font-family: Comfortaa;
+    src: url("Comfortaa-Light.ttf");
+}
+body{
+    margin: 0;
+    font-family: Comfortaa;
+}
+div{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.row{
+    width: 100%;
+}
+.header{
+    box-sizing: border-box;
+ background-image: url('header.jpg');
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+.header img{
+   visibility: hidden;
+    display: block;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.triple{
+    font-size: 0;
+    position: relative;
+}
+.third {
+    width: 33.333333333333333333%;
+    height: auto;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.third-left {
+    background-color: #2a3b3f
+}
+.third-middle {
+    background-color: #292c34
+}
+.third-right {
+    background-color: #b2b8c7
+}
+.wrapper{
+    height: 150px;
+}
+.wrapper img{
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+.text-title{
+    font-size: 20px;
+    color:white;
+    padding-top:50px;
+    text-align: center;
+}
+.text-small{
+    font-size: 12px;
+    color:white;
+    text-align: center;
+}
+/* ma */
+.double{
+    font-size: 0;
+    background-color: violet;
+    display: flex;
+}
+.twice{
+    flex-direction: row;
+    flex-flow: row;
+    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
+}
+.twice-left{
+    background-color: forestgreen;
+}
+.twice-right{
+    background-color: whitesmoke;
+}
+.wrapper2{
+    flex-direction: column;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrapper2 .text-title{
+    color:black;
+    text-align: left;
+}
+.option .text-option{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+}
+.wrapper2 .btn{
+width: 100px;
+height: 30px;
+background-color: #28ea89;
+color:white;
+align-items: center;
+border: 0;
+padding: 0;
+border-radius: 3px;
+}
+.wrapper3{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-image: url('video.jpg');
+    background-repeat:round;
+    background-size: 100% 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    padding:100px;
+}
+.wrapper3 .btn{
+    width: 100px;
+    height: 30px;
+    background-color: #28ea89;
+    color:white;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    border-radius: 3px;
+    }
+
+
